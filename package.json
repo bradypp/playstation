@@ -1,0 +1,30 @@
+{
+    "name": "playstation",
+    "version": "1.0.0",
+    "description": "A modern website design for PlayStation",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bradypp/playstation.git"
+    },
+    "author": "Paul Brady",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bradypp/playstation/issues"
+    },
+    "homepage": "https://github.com/bradypp/playstation#readme",
+    "devDependencies": {
+        "browser-sync": "^2.26.7",
+        "esm": "^3.2.25",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-imagemin": "^7.1.0",
+        "gulp-sass": "^4.1.0",
+        "gulp-uglify": "^3.0.2",
+        "prettier": "^2.0.5"
+    }
+}

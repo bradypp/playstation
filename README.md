@@ -1,2 +1,3 @@
-# playstation
-A stylish website for a brand such as PlayStation
+# PlayStation
+
+A modern website design for PlayStation
