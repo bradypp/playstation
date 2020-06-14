@@ -1,0 +1,33 @@
+# TODO: update site config
+title: PlayStation
+description: >-
+    PlayStation home page demo
+baseurl: ''
+url: ''
+
+# Build settings
+markdown: kramdown
+
+# Exclude from processing.
+exclude:
+    - '.sass-cache'
+    - '.jekyll-cache'
+    - 'gemfiles'
+    - 'Gemfile'
+    - 'Gemfile.lock'
+    - '*.gemspec'
+    - 'README.md'
+    - 'node_modules'
+    - 'build'
+    - 'gulpfile.babel.js'
+    - 'yarn.lock'
+    - 'package.json'
+
+keep_files:
+    - 'CNAME'
+    - '.git'
+    - '.gitignore'
+
+plugins:
+    - jekyll-minifier
+    - jekyll-sitemap
