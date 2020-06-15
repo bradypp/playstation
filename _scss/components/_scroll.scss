@@ -1,0 +1,15 @@
+.scroll {
+    @include flexCenter;
+
+    &__text {
+        color: inherit;
+        letter-spacing: 4px;
+        font-size: var(--font-size-sm);
+        margin-right: 1.6rem;
+    }
+
+    &__icon {
+        color: inherit;
+        width: 1.8rem;
+    }
+}

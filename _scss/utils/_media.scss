@@ -6,7 +6,7 @@ MEDIA QUERY MANAGER
 - bp800: Tablet Portrait
 - bp1040: Tablet Landscape
 - bp1280: Laptop
-- bp1760: Desktop
+- bp2200: Large Screen
 */
 
 @mixin media($bp) {
@@ -40,8 +40,8 @@ MEDIA QUERY MANAGER
             @content;
         }
     }
-    @if $bp == bp1760 {
-        @media only screen and (min-width: 110em) {
+    @if $bp == bp2200 {
+        @media only screen and (min-width: 137.5em) {
             @content;
         }
     }

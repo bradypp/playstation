@@ -22,10 +22,13 @@ html {
     touch-action: manipulation;
     font-size: 62.5%; // 1rem = 10px
 
+    @include media(bp2200) {
+        font-size: 68.75%; // 1rem = 11px
+    }
     @include media(bp1280) {
         font-size: 56.25%; // 1rem = 9px
     }
-    @include media(bp1280) {
+    @include media(bp800) {
         font-size: 50%; // 1rem = 8px
     }
 }
@@ -138,26 +141,8 @@ textarea {
     }
 }
 
-[role='button'],
-button {
-    background: none;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    vertical-align: middle;
-    white-space: nowrap;
-    appearance: none;
-    overflow: hidden;
-    position: relative;
-    width: min-content;
-    appearance: none;
-}
-
 a {
-    display: inline-block;
-    text-decoration: underline;
     color: var(--color-text-link);
-    position: relative;
 }
 
 input,
