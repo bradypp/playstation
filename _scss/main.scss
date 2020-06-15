@@ -1,9 +1,7 @@
-@import 'abstracts/functions';
-@import 'abstracts/mixins';
-@import 'abstracts/variables';
-
 @import 'base/animations';
-@import 'base/base';
+@import 'base/global';
+@import 'base/colors';
+@import 'base/fonts';
 @import 'base/normalize';
 @import 'base/typography';
 
@@ -18,4 +16,4 @@
 @import 'utils/functions';
 @import 'utils/helpers';
 @import 'utils/mixins';
-@import 'utils/variables';
+@import 'utils/media';

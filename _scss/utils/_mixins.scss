@@ -1,0 +1,90 @@
+@mixin clearfix {
+    &::after {
+        content: '';
+        display: table;
+        clear: both;
+    }
+}
+
+@mixin absCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@mixin scrollableY {
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+@mixin clickable {
+    cursor: pointer;
+    user-select: none;
+}
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flexCenterRight {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@mixin flexCenterLeft {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@mixin flexBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin flexColumnCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin inlineFlexCenter {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin engulf {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@mixin overflowEllipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-right: 1px;
+}
+
+@mixin hardwareAccelerate {
+    transform: translateZ(0);
+}
+
+@mixin hideElement {
+    position: absolute;
+    pointer-events: none;
+    visibility: hidden;
+    opacity: 0;
+}

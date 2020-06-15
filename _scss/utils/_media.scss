@@ -1,0 +1,48 @@
+/*
+MEDIA QUERY MANAGER
+- bp384: Small Phone
+- bp440: Large Phone
+- bp600: Huge Phone
+- bp800: Tablet Portrait
+- bp1040: Tablet Landscape
+- bp1280: Laptop
+- bp1760: Desktop
+*/
+
+@mixin media($bp) {
+    @if $bp == bp384 {
+        @media only screen and (max-width: 24em) {
+            @content;
+        }
+    }
+    @if $bp == bp440 {
+        @media only screen and (max-width: 27.5em) {
+            @content;
+        }
+    }
+    @if $bp == bp600 {
+        @media only screen and (max-width: 37.5em) {
+            @content;
+        }
+    }
+    @if $bp == bp800 {
+        @media only screen and (max-width: 50em) {
+            @content;
+        }
+    }
+    @if $bp == bp1040 {
+        @media only screen and (max-width: 65em) {
+            @content;
+        }
+    }
+    @if $bp == bp1280 {
+        @media only screen and (max-width: 80em) {
+            @content;
+        }
+    }
+    @if $bp == bp1760 {
+        @media only screen and (min-width: 110em) {
+            @content;
+        }
+    }
+}
