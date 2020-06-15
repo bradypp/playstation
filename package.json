@@ -41,5 +41,8 @@
     "defaults",
     "last 5 versions",
     "maintained node versions"
-  ]
+  ],
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
 }

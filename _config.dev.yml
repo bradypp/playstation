@@ -22,7 +22,6 @@ exclude:
     - 'gulpfile.babel.js'
     - 'yarn.lock'
     - 'package.json'
-    - 'fonts'
 
 keep_files:
     - 'CNAME'

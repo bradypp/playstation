@@ -7,7 +7,7 @@ const scss = require('./gulp-tasks/scss');
 const jekyll = require('./gulp-tasks/jekyll');
 
 const scssPath = '_scss/**/*.scss';
-const jsPath = '_scripts/*.js';
+const jsPath = '_javascript/*.js';
 const templatePath = [
     '*.html',
     '+(_includes|_layouts)/*.html',

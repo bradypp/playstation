@@ -5,7 +5,7 @@ const sourcemaps = require('gulp-sourcemaps');
 const concat = require('gulp-concat');
 
 function buildJs() {
-    return src('_scripts/*.js')
+    return src('_javascript/*.js')
         .pipe(sourcemaps.init())
         .pipe(
             babel({

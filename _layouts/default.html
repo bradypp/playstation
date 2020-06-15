@@ -3,11 +3,16 @@ layout: compress
 ---
 <!DOCTYPE html>
 <html>
+
 <head>
   {% include head.html %}
 </head>
+
 <body>
-  {{ content }}
+  <div id="root">
+    {{ content }}
+  </div>
   {% include scripts.html %}
 </body>
+
 </html>

@@ -15,6 +15,7 @@ html,
 body {
     width: 100%;
     max-width: 100%;
+    overflow: hidden;
 }
 
 html {
@@ -34,7 +35,6 @@ html {
 }
 
 body {
-    overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-weight: 400;
@@ -142,6 +142,7 @@ textarea {
 }
 
 a {
+    @include clickable;
     color: var(--color-text-link);
 }
 
