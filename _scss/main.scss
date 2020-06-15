@@ -1,3 +1,8 @@
+@import 'utils/functions';
+@import 'utils/helpers';
+@import 'utils/mixins';
+@import 'utils/media';
+
 @import 'base/animations';
 @import 'base/global';
 @import 'base/colors';
@@ -12,8 +17,3 @@
 @import 'layout/navigation';
 
 @import 'pages/home';
-
-@import 'utils/functions';
-@import 'utils/helpers';
-@import 'utils/mixins';
-@import 'utils/media';

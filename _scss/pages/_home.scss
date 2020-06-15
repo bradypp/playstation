@@ -1,0 +1,18 @@
+.hero {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: width 0.8s, height 0.8s;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    &__video {
+        background-image: url('/img/ps5.webp');
+        width: 100%;
+        height: auto;
+        min-height: 100%;
+        object-fit: cover;
+    }
+}

@@ -4,7 +4,12 @@ async function jekyllBuild() {
     try {
         await spawn(
             process.platform === 'win32' ? 'jekyll.bat' : 'jekyll',
-            ['build', '--config', '_config.yml', '--incremental'],
+            [
+                'build',
+                '--config',
+                process.env.NODE_ENV === 'production' ? '_config.yml' : '_config.dev.yml',
+                '--incremental',
+            ],
             {
                 stdio: 'inherit',
             },
