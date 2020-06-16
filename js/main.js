@@ -1,2 +1,2 @@
-"use strict";
+"use strict";window.addEventListener("DOMContentLoaded",function(){var e=document.getElementById("carousel"),t=e.children,i=t.length,a=0;t[0].classList.add("home__grid__item__carousel-item--active"),e.classList.add("home__grid__carousel-parent--animate"),setInterval(function(){t[a%i].classList.remove("home__grid__item__carousel-item--active"),t[(a+1)%i].classList.add("home__grid__item__carousel-item--active"),a++},8e3)},!1);
 //# sourceMappingURL=main.js.map
