@@ -1,5 +1,6 @@
 :root {
-    --z-index-menu: 100;
+    --z-index-menu: 50;
+    --z-index-header: 100;
     --box-shadow-primary: 0 1px 3px rgba(0, 0, 0, 0.25);
 }
 
@@ -38,6 +39,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     font-weight: 400;
+    font-size: var(--font-size-md);
     line-height: 1.5;
     color: var(--color-text-primary-1);
     min-height: 100vh;

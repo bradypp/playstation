@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<main class="post">
+    <div class="u-contain-and-center u-side-padding">
+        <h1 class="post__title">{{ page.title }}</h1>
+        <p class="post__author">By {{ page.author }} on {{ page.date | date: '%B %d, %Y' }}</p>
+        <p class="post__subtitle">{{ page.subtitle }}</p>
+        <img class="post__img" src="{{ page.img_src }}" alt="{{ page.img_alt }}" />
+        {{ content }}
+    </div>
+</main>

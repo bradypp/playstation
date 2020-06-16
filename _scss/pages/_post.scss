@@ -1,0 +1,23 @@
+.post {
+    @include flexColumnCenter;
+    padding: 100px 0;
+
+    &__img {
+        margin-bottom: 1.6rem;
+    }
+
+    &__title {
+        margin: 0 0 0.8rem;
+    }
+
+    &__author {
+        font-size: var(--font-size-xs);
+        margin: 0 0 0.8rem;
+    }
+
+    &__subtitle {
+        font-size: var(--font-size-xl);
+        color: var(--text-primary-2);
+        font-style: italic;
+    }
+}

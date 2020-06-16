@@ -1,7 +1,12 @@
 :root {
     --color-white: #fff;
     --color-grey-dark-1: #222;
+    --color-grey-dark-2: #555;
+    --color-red: crimson;
+    --color-blue: cornflowerblue;
+    --color-blue-dark: darkblue;
 
     --color-text-primary-1: var(--color-grey-dark-1);
+    --color-text-primary-2: var(--color-grey-dark-2);
     --color-text-link: var(--color-text-primary-1);
 }

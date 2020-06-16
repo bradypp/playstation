@@ -195,7 +195,7 @@
                     transform: translateY(0);
 
                     &::before {
-                        width: 22rem;
+                        width: 18rem;
                     }
                 }
 
@@ -251,13 +251,13 @@
             &--9 {
                 grid-row: 5 / 6;
                 grid-column: 3 / 4;
-                background-color: crimson;
+                background-color: var(--color-red);
             }
 
             &--10 {
                 grid-row: 5 / 6;
                 grid-column: 4 / 5;
-                background-color: cornflowerblue;
+                background-color: var(--color-blue);
             }
         }
     }

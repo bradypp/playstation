@@ -1,0 +1,12 @@
+.u-side-padding {
+    padding: 0 var(--side-padding);
+}
+
+.u-contain-and-center {
+    @include containAndCenter;
+}
+
+.u-scrollable {
+    @include scrollableY;
+    height: 100vh;
+}

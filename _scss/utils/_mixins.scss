@@ -88,3 +88,9 @@
     visibility: hidden;
     opacity: 0;
 }
+
+@mixin containAndCenter {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    width: 100%;
+}

@@ -3,4 +3,61 @@
 }
 
 .header {
+    @include flexCenterLeft;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: var(--z-index-header);
+    padding: 15px 25px;
+    width: 100%;
+    color: var(--color-grey-dark-1);
+    pointer-events: none;
+
+    &__main {
+        @include flexCenter;
+        height: 100%;
+        pointer-events: fill;
+
+        &__burger {
+            @include clickable;
+            padding: 10px;
+            width: 50px;
+            height: 40px;
+            display: inline-flex;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-right: 30px;
+
+            span {
+                display: block;
+                transition: opacity 0.2s ease, transform 0.3s ease;
+                opacity: 1;
+                background-color: currentColor;
+                height: 2px;
+            }
+
+            &--open {
+                span {
+                    &:first-child {
+                        transform: translateY(9px) rotate(45deg);
+                    }
+
+                    &:nth-child(2) {
+                        opacity: 0;
+                    }
+
+                    &:last-child {
+                        transform: translateY(-9px) rotate(-45deg);
+                    }
+                }
+            }
+        }
+
+        &__logo {
+            @include clickable;
+            width: 32px;
+            height: 32px;
+        }
+    }
 }
