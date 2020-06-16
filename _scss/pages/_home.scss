@@ -143,7 +143,7 @@
                 position: absolute;
                 top: 0;
                 left: 0;
-                background: linear-gradient(transparent, rgba(0, 0, 0, 0.4));
+                background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
                 opacity: 1;
                 width: 100%;
                 height: 100%;
@@ -188,7 +188,7 @@
 
             &:hover {
                 .home__grid__item__cover {
-                    opacity: 0.7;
+                    opacity: 0.6;
                 }
 
                 .home__grid__item__title {
@@ -251,11 +251,13 @@
             &--9 {
                 grid-row: 5 / 6;
                 grid-column: 3 / 4;
+                background-color: crimson;
             }
 
             &--10 {
                 grid-row: 5 / 6;
                 grid-column: 4 / 5;
+                background-color: cornflowerblue;
             }
         }
     }
