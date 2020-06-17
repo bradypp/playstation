@@ -1,5 +1,5 @@
 <h1 align="center">
-  PlayStation Website Design
+  PlayStation Website
 </h1>
 <p align="center">
   Found at <a href="https://bradypp.github.io/playstation/" target="_blank">https://bradypp.github.io/playstation/</a> and hosted with <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
