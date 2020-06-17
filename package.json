@@ -1,7 +1,7 @@
 {
   "name": "playstation",
   "version": "1.0.0",
-  "description": "PlayStation site design concept",
+  "description": "PlayStation Website Design",
   "main": "index.js",
   "scripts": {
     "start": "gulp",
