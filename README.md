@@ -8,7 +8,7 @@
   Found at <a href="" target="_blank">url.com</a> and hosted with <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 </p>
 <a href="" target="_blank">
-  <img src="https://raw.githubusercontent.com/bradypp/playstation/master/src/demo.png" alt="repo demo">
+  <img src="https://raw.githubusercontent.com/bradypp/playstation/master/demo.png" alt="repo demo">
 </a>
 
 ## Dependencies
