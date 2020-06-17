@@ -13,11 +13,15 @@
         overflow: hidden;
         scroll-snap-align: start;
 
+        &__image {
+            z-index: -1;
+        }
+
+        &__image,
         &__video {
             position: absolute;
             top: 0;
             left: 0;
-            background-image: url('img/ps5-landing.webp');
             width: 100vw;
             height: 100vh;
             overflow: hidden;

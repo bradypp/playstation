@@ -9,6 +9,7 @@ name: 'PlayStation'
 
 # Build settings
 markdown: kramdown
+destination: ./docs
 
 # Exclude from processing.
 exclude:

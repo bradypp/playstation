@@ -19,7 +19,7 @@ const templatePath = [
 function serve() {
     browserSync.init({
         server: {
-            baseDir: '_site',
+            baseDir: 'docs',
         },
     });
 
