@@ -14,6 +14,13 @@
     color: var(--color-grey-dark-1);
     pointer-events: none;
 
+    @include media(bp800) {
+        padding: 10px 20px;
+    }
+    @include media(bp440) {
+        padding: 10px 15px;
+    }
+
     &__main {
         @include flexCenter;
         height: 100%;

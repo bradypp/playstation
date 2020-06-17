@@ -1,4 +1,17 @@
 :root {
     --max-width: 1100px;
     --side-padding: 150px;
+
+    @include media(bp1040) {
+        --side-padding: 100px;
+    }
+    @include media(bp800) {
+        --side-padding: 75px;
+    }
+    @include media(bp600) {
+        --side-padding: 50px;
+    }
+    @include media(bp440) {
+        --side-padding: 20px;
+    }
 }
