@@ -125,7 +125,7 @@
 
                     .home__grid__item__image {
                         transition: transform 6000ms var(--ease);
-                        transform: scale(1.3);
+                        transform: scale(1.3) !important;
                     }
                 }
 
