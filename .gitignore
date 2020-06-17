@@ -4,6 +4,3 @@ _site
 .jekyll-metadata
 vendor
 node_modules
-css
-img
-js
