@@ -1,11 +1,11 @@
 # TODO: update production site config
 title: PlayStation
 description: >-
-    PlayStation home page demo
-baseurl: ''
-url: ''
-cover: domain/img/path
-logo: domain/img/path
+    PlayStation site design concept
+url: 'https://bradypp.github.io/playstation/'
+cover: 'https://bradypp.github.io/playstation/img/og.png'
+icon: 'https://bradypp.github.io/playstation/img/favicon.ico'
+name: 'PlayStation'
 
 # Build settings
 markdown: kramdown

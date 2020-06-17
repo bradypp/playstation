@@ -4,7 +4,7 @@ const browserSync = require('browser-sync').create('jekyll');
 const images = require('./gulp-tasks/images');
 const javascript = require('./gulp-tasks/javascript');
 const scss = require('./gulp-tasks/scss');
-const jekyll = require('./gulp-tasks/jekyll');
+const { jekyllBuildDev, jekyllBuildProd } = require('./gulp-tasks/jekyll');
 
 const scssPath = '_scss/**/*.scss';
 const jsPath = '_javascript/*.js';
@@ -27,10 +27,12 @@ function serve() {
         javascript();
         scss();
         images();
-        jekyll();
+        jekyllBuildDev();
         browserSync.reload();
         cb();
     });
 }
 
-exports.default = series(parallel(scss, javascript, images), jekyll, serve);
+exports.default = series(parallel(scss, javascript, images), jekyllBuildDev, serve);
+
+exports.build = series(parallel(scss, javascript, images), jekyllBuildProd);

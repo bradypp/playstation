@@ -1,14 +1,11 @@
 <h1 align="center">
-  url.com
+  PlayStation Site Design Concept
 </h1>
 <p align="center">
-  My personal website made to showcase my work and share my blog posts. 
-</p>
-<p align="center">
-  Found at <a href="" target="_blank">url.com</a> and hosted with <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  Found at <a href="https://bradypp.github.io/playstation/" target="_blank">https://bradypp.github.io/playstation/</a> and hosted with <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 </p>
 <a href="" target="_blank">
-  <img src="https://raw.githubusercontent.com/bradypp/playstation/master/demo.png" alt="repo demo">
+  <img src="https://raw.githubusercontent.com/bradypp/playstation/master/img/og.png" alt="repo demo">
 </a>
 
 ## Dependencies

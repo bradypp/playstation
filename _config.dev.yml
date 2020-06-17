@@ -2,8 +2,10 @@
 title: PlayStation
 description: >-
     PlayStation home page demo
-url: 'localhost:3000/'
-baseurl: 'http://localhost:3000/'
+url: 'http://localhost:3000/'
+cover: 'http://localhost:3000/img/og.png'
+icon: 'http://localhost:3000/img/favicon.ico'
+name: 'PlayStation'
 
 # Build settings
 markdown: kramdown
